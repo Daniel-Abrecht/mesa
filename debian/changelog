@@ -1,3 +1,10 @@
+mesa (21.2.0-rc2) unstable; urgency=medium
+
+  * New upstream release
+  * Changed build procedure
+
+ -- Daniel Abrecht <public@danielabrecht.ch>  Sat, 24 Jul 2021 15:58:00 +0000
+
 mesa (21.1.4-1) experimental; urgency=medium
 
   * New upstream release.
