@@ -1,0 +1,5 @@
+#!/bin/sh
+git fetch upstream
+git push origin '+refs/remotes/upstream/*:refs/heads/*'
+git push --follow-tags mine
+git push --follow-tags gitlab

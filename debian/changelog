@@ -1,3 +1,9 @@
+mesa (21.2.1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Daniel Abrecht <public@danielabrecht.ch>  Sam, 18 Sep 2021 16:02:00 +0000
+
 mesa (21.2.0) unstable; urgency=medium
 
   * New upstream release
