@@ -1,5 +1,644 @@
 [
     {
+        "sha": "a9b4a507fe58f82a391e24214b9fc60cc00e5f2a",
+        "description": "tu: Expose Vulkan 1.2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c6216c941caefd273a0ea3dbd3b6321e955a49f1",
+        "description": "tu: Add VK_KHR_buffer_device_address stubs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "952ab4f64f9990c4a086ddb885241029356ab842",
+        "description": "tu: Enable subgroupBroadcastDynamicId",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "170e1aa647806820d186005aa0bd1464278816d5",
+        "description": "freedreno/a[345]xx: add R8/RG8 SRGB formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8db29109bebfe95995d056c7ebb0e62772bf9b10",
+        "description": "freedreno: prefer float immediates when float values are involved",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4e83584092ff99954095dd6dddbf7632cb0ee32e",
+        "description": "pan/mdg: Remove duplicate compiler option",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a4d3a2964771c3d26967ecab4d7c187a8b2d8002",
+        "description": "pan/bi: Enable dual texture fusing pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0c215813f7d67a43a7b3f68aeb261da660e61b4f",
+        "description": "pan/bi: Test dual texture fusing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9146bafbb422dc535c04e5f177a44e8ea82031db",
+        "description": "pan/bi: Add dual texture fusing pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e6c6a1afb46df14382f8d9fff7d9b12beea8429d",
+        "description": "pan/bi: Fix up dual texturing registers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ce8d2b96c1be30113328801685a2f345cf5fec61",
+        "description": "pan/bi: Add bi_dual_tex_as_u32 helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9b2a383af8afc21279ac67653cf359f4fa3f202a",
+        "description": "pan/bi: Support dual texture scheduling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "98c1b3e7e1453534d130687971232798860bfebb",
+        "description": "pan/bi: Use BIFROST_TEXTURE_OPERATION_SINGLE enum",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9245b39ccf1a379ff4efa2514176b1c34368da4b",
+        "description": "pan/bi: Add bifrost_dual_texture_operation struct",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3612880ea3e476922ea45b0cbb607e615a2f5b82",
+        "description": "pan/bi: Add bifrost_texture_operation_mode enum",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7dc90b68d9d9716fa43f0d64f413a735a92c0f98",
+        "description": "pan/bi: Add second destination to TEXC",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8e0273162432b940970816a9c138ea8fb1c526e4",
+        "description": "pan/bi: Add secondary staging count",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "238f6d80a70b937890253507c5f1b3b9b5b494bc",
+        "description": "pan/bi: Make bi_index padding explicit",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b0022f1c6b95f7f3c92fd5a15d7181398837b7d2",
+        "description": "pan/bi: Fix typo in helper invocation analysis",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a315d0430897bd25aa71c433036cefcba0523a91",
+        "description": "mesa: add just a tiny bit of debug info to some _mesa_problem calls",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "269b4dec9e9c1f284ec252aaf55ca87fba2a78da",
+        "description": "nv50,nvc0: expose R8/RG8_SRGB formats for texturing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ddb3d30d4749e744a667ea7835b0648a5c94ca72",
+        "description": "turnip: Enable VK_KHR_separate_depth_stencil_layouts",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e257344a82417b6dc28d5834a0a9376fefd7f5ac",
+        "description": "nir/lower_pntc_ytransform: Support PointCoordIsSysval",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "43322ceccdfa67fcd133c94f51adfaefe2d99db2",
+        "description": "mesa: add missing state to state string computation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7490bcad372b820166b0e60664d8fabcdbc71514",
+        "description": "v3dv: don't use a global constant for default pipeline dynamic state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4b3931ee6c61caecabce4a49aace4be91d8d736a",
+        "description": "v3dv: account for multisampling when computing subpass granularity",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0cb58f80d27b2386accc8454eb10dc8fd0d1a1c5",
+        "description": "v3d: use V3D_MAX_DRAW_BUFFERS instead of hardcoded constant",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fc106d86a51aa8404761c53585ab730907b88a50",
+        "description": "meson: Update libelf wrap for Windows",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0aaaee09a4b1a4f688cca57f766f3d81c8adbc81",
+        "description": "radv: Match function definitions to declarations",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "195a379a7e8eb7de0f5796dafaf4fc428ff98ef5",
+        "description": "ac: Align ADDR_FASTCALL with addrlib",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aa2f5cd1a3369e5d8af233269666ed10f23528d9",
+        "description": "driconf: support META application",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3900551894daecc22ccd81fa1510d053634e2c6b",
+        "description": "radeonsi: add radeonsi_force_use_fma32 driconf option",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a0634a3c856c81c72b221021d655b98d3112bc2b",
+        "description": "ci/bare-metal: switch to common .baremetal-test-arm64",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d39904ea30c69499737f7354ba41ab553d6f857b",
+        "description": "ci/bare-metal: add .baremetal-test-arm64",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "92fcdfd38b03f7de355fad2a1953d3a2f8392b27",
+        "description": "ci/etnaviv: no need to force nir anymore",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3d1c1137e5f9c1ac2affa756517baa593fda8142",
+        "description": "ci/etnaviv: armhf: switch to .baremetal-test-armhf",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8bc284fe5bb71f24bbcb40761b204e37eb3458d1",
+        "description": "ci/bare-metal: armhf: move BM_ROOTFS to generic place",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "34c5ba8850b560c617086761f55ed2745f2a5b08",
+        "description": "aux/primconvert: support pipe_context::draw_vertex_state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e1948c9a71cc7bc9da62fe771276ef1681e3d2fb",
+        "description": "aux/primconvert: break out primconvert internals into util function",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d903eb156a3895f05ed1b332b45fb66056d4963a",
+        "description": "freedreno/a4xx: fix min/max/bias lod sampler settings",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4ffcef821c0ac0e7f76ffb82bc0f50f0b8dbba4b",
+        "description": "freedreno/ir3: fix setting the max tf vertex when there are no outputs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c0de7ea0aba3be1abc6361772242787ce5e09a70",
+        "description": "freedreno: check batch size after the fallback blitter clear",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d2ff2b9e4a22a83d59caf56052fdda1fd4493ca1",
+        "description": "anv: fix multiple wait/signal on same binary semaphore",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a4eecc543e6a441b6583710f0d7a777a9e560e7a",
+        "description": "gtest: Fix output of array ASSERT/EXPECT macros",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": "015383d1d78435edde87bf07bb8bb8aabd3c22fd"
+    },
+    {
+        "sha": "deb23612f7554f8db7f3574d068f36ccefd99487",
+        "description": "vulkan/util: Handle depth-only formats in vk_att_ref_stencil_layout",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": "979ea394e56a418f4138b5f440ec0b641cc5fa0e"
+    },
+    {
+        "sha": "a68a0c9e1c69d14f210de569ed4d73f3e42857db",
+        "description": "mesa/st: Disable NV_copy_depth_to_color on non-doubles-capable HW.",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3f3820a3a5fbe78cf0ee366878795a942dcf4f4a",
+        "description": "v3d: remove static v3d_start_binning",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2a65db2458bb0aa1fe48853539b76e05e1f4c955",
+        "description": "v3d: remove unused include",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ee41e1bbd2a57f58b616d560451759a4fcd940db",
+        "description": "lima: Fix drawing wide lines",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3e7bac80ce5cc1de7d13dfc6ae17526a03ddffcc",
+        "description": "ac/rgp: add support for dumping SPM data",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e928f475ccf6534e09c2977314a5360cc4335c3c",
+        "description": "ac: add initial SPM support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bdaf1858895705bbc2a8baaecb945f8b279ad07e",
+        "description": "v3d: Update prim_counts when prims generated query in flight without TF",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "a1b7c0844ddcbdc5ab773cbe2f6312f34111bdd9"
+    },
+    {
+        "sha": "4a38ed822ab0c3d0f663dd5bec238a0839d03b01",
+        "description": "virgl: Allocate qdws after virgl_init_context to avoid leak.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "9a7d6a110e2a407ead13d0eb2f1aedbdb54e696b"
+    },
+    {
+        "sha": "1ca90f8752315389ae18b2c0d3773224db3c4c31",
+        "description": "microsoft/spirv_to_dxil: Fix non-Windows build.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": "37c366e2830245511d6364b818adc838fc879401"
+    },
+    {
+        "sha": "07aaef5721093253fbd2edabe9d0ca4e58a3413a",
+        "description": "freedreno/a6xx: Inline remaining fd6_tex_const_0() call.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7230058e8ac4a82ec4467478094324a6806f41a5",
+        "description": "freedreno/a6xx: Drop an unused tile_mode arg.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a9057d45a4255d94fbfccd92e5d6d4f93ffd4d04",
+        "description": "freedreno/a6xx: Clean up sysmem fb read patching using fd6_view.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c90220e449116824795e96ac2988c8b107cd9cf5",
+        "description": "freedreno/a6xx: Use fd6_view for non-buffer image descriptors, too.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "533e486923b1fb760961c582aa296d5ce423a704",
+        "description": "freedreno/a6xx: Switch to relying on fd6_view for our texture descriptors.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "84377785a4c656e9eb40b3bfb7101398effe2b46",
+        "description": "freedreno/a6xx: Create a fd6_view at sampler view update time.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5b3a6ff9f73dbfbc5b7132fa44073dc555153a93",
+        "description": "freedreno: Set layer_first on (2D) resource imports.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "94e4cd4d83601e71c77b8414fef776dee69b5e93",
+        "description": "freedreno/fdl6: Skip redundant setting of TILE_ALL for NV12.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2e6810a06a1bd549f9711dd57f9fe4e8dba7dce2",
+        "description": "util/format: Add G8_B8R8_420_UNORM to match Vulkan.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "271b6cb981e731e7e64484c153ba51315aa59163",
+        "description": "util: Rename PIPE_FORMAT_G8_B8_R8_420_UNORM.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6eb86efe9150caf59d991190e0c355841ab69766",
+        "description": "util/ra: Fix deserialization of register sets",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "95d41a3525d97986b4925153a36828b1a6e65523"
+    },
+    {
+        "sha": "ac416ce07bf0456dae51bdcfc318236d40206ee2",
+        "description": "util/ra: Add simple test for register set serialization",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "37b51d5140b864ee5feb7ac0c766e59559bfb240",
+        "description": "docs: update calendar for 21.3.0-rc5",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8f5a0bd9b40e2b1239da3e17437115c78fb14bba",
+        "description": "ci/bare-metal: Close serial and join serial threads before exit.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4cdbe3f2b9bf0a1a71ccf3ee69b712f5fc1c96e2",
+        "description": "ci/etnaviv: Add more texturing flakes.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "13e23b54ba774c379b92fd78ec3abc648ab47dc9",
+        "description": "ci/etnaviv: Mark the rest of uniform_api.random as flaky.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5451bb03c7b26704a5301613b11a180487b6241f",
+        "description": "mesa/main: Fix use of alloca() without #include \"c99_alloca.h\"",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": "c216f1931d2656c15191c8b723be72b95697fe73"
+    },
+    {
         "sha": "549924d53e359c04d7c14b12990178c86d3aad2d",
         "description": "freedreno: Fix constant-index assumptions in IBO loads.",
         "nominated": false,
